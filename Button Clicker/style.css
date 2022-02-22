@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+    font-family: cursive;
+}
+
+.row {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    width: 1000px;
+    height: 60px;
+    background-color: lightgray;
+    margin-bottom: 20px;
+    font-size: 3.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.active {
+    text-decoration: none;
+    color: black;
+}
+
+.search {
+    width: 300px;
+    height: 35px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: .4em;
+    font-family: cursive;
+}
+
+.login {
+    background-color: dodgerblue; 
+    width: 80px;
+    height: 35px;
+    color: whitesmoke; 
+    border: 2px solid black; 
+    box-shadow: 2px 2px black;
+    font-size: .4em;
+    font-family: cursive;
+}
+
+.box-left {
+    width: 530px;
+    height: 230px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 20px;
+}
+
+.word-likes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.word {
+    font-size: 3.5em;
+}
+
+.plural {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.noun {
+    font-size: 2em;
+}
+
+.likes {
+    background-color: rgb(255, 217, 102); 
+    width: 80px;
+    height: 35px; 
+    border: 2px solid black; 
+    box-shadow: 2px 2px black;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1em;
+    flex: 1;
+}
+
+.definition {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    font-size: 1.5em;
+}
+
+.box-right {
+    width: 350px;
+    height: 180px;
+    border: 2px solid black;
+    display: flex;
+    padding: 10px;
+}
+
+.add-definition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statement {
+    font-size: 2em;
+    margin: 10px;
+}
+
+.add-def-btn {
+    background-color: rgb(147, 196, 125); 
+    width: 250px;
+    height: 30px; 
+    border: 2px solid black; 
+    box-shadow: 2px 2px black;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1em;
+    flex: 1;
+    margin: 10px;
+}
